@@ -1,0 +1,15 @@
+header {
+  padding: 0 7%;
+  border-bottom: 1px solid #dddddd54;
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div.logo_wrapper {
+  font-size: 1.5rem;
+}

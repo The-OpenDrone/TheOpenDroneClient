@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import '../styles/Header.css'
+import '../styles/Header/Header.css'
+import Logo from './Logo';
 
-class Header extends Component {
+class Header extends Component { 
         render() {
                 return (
-                        <header className="header">
-                                {/* LOGO  ON LEFT SIDE */}
+                        // height is 8vh
+                        <header className="header"> 
+                                <Logo />
                         </header>
                 );
         }
