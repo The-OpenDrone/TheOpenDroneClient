@@ -1,0 +1,18 @@
+div.brief_about__wrapper {
+  padding: 50px 0;
+}
+
+div.brief_about__wrapper div.brief_about {
+  width: 50%;
+  margin: 0 auto;
+}
+
+div.brief_about__wrapper div.brief_about div.heading h1 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+div.brief_about__wrapper div.brief_about div.about {
+  text-align: center;
+  line-height: 1.4;
+}

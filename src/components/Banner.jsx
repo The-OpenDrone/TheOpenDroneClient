@@ -10,13 +10,8 @@ class Banner extends Component {
                 super(props)
                 this.state = {
                         playing: true,
+                        bannerFocused: true
                 }
-
-                this.refVideo = React.createRef(null)
-        }
-
-        showPauseButton = event => {
-                event.target.style.display = "block"
         }
 
         render() {
@@ -25,17 +20,17 @@ class Banner extends Component {
                         <div className="banner_wrapper">
                                 {
                                         !playing
-                                        ? <div className="play_button" onClick={null}>
+                                        ? <div className="play_button">
                                                 <i className="fas fa-play"></i>
                                         </div>
-                                        : <div className="pause_button " onMouseEnter={this.showPauseButton} style={ playing ? {display: 'none'} : {display: 'block'} }>
+                                        : <div className="pause_button">
                                                 <i className="fas fa-pause"></i>
                                         </div>
                                 }
                                 
                                 <div className="banner__video_overlay"> </div>
                                 <div className="banner__video_wrapper">
-                                        <video width="100%" muted loop autoPlay ref={this.refVideo}>
+                                        <video width="100%" muted loop autoPlay>
                                                 <source src={makingOf} type="video/mp4"/>
                                         </video>
                                 </div>

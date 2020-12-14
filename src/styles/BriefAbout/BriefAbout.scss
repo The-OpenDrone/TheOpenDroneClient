@@ -1,0 +1,20 @@
+div.brief_about__wrapper {
+        padding: 50px 0;
+
+        div.brief_about {
+                width: 50%;
+                margin: 0 auto;
+
+                div.heading {
+                        h1 {
+                                text-align: center;
+                                padding-bottom: 5px;
+                        }
+                }
+
+                div.about {
+                        text-align: center;
+                        line-height: 1.4;
+                }
+        }
+}

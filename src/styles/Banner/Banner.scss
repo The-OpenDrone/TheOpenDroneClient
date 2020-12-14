@@ -13,6 +13,9 @@ div.banner_wrapper {
         }
 
         div.banner__video_wrapper {
+                &:focus {
+                        outline: none;
+                }
                 video {
                         width: 100%;
                 }
@@ -20,6 +23,7 @@ div.banner_wrapper {
 
         div.play_button,
         div.pause_button {
+                // display: none;
                 position: absolute;
                 z-index: 100;
                 padding: 25px;
